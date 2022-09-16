@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Layout from "./components/Layout";
 
 import Router from "./shared/Router";
 

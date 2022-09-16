@@ -1,15 +1,14 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-import Layout from "../components/Layout";
 import TodoList from "../pages/TodoList";
+import TodoDetail from "../pages/TodoDetail";
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />} />
-        <Route path="/:id" element={<TodoList />} />
+        <Route path="/" element={<TodoList />} />
+        <Route path="/:id" element={<TodoDetail />} />
       </Routes>
     </BrowserRouter>
   );
